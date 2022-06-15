@@ -1,5 +1,4 @@
 # Overview 
-
 In order to further my understanding areas of React.js, APIs, and database interactions with the back-end, I will be creating a web app that allows users to order food from a delivery service that prepares the meals. 
 The "real world" service I am trying to simulate is that of the client side rendering business that prepares healthy meals as per the client's orders. The client has the option of picking up from a delivery point, or having them 
 The app offers drop-off location options and time reservations. 
