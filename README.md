@@ -1,5 +1,5 @@
 # Overview 
-In order to further my understanding areas of React.js, APIs, and database interactions with the back-end, I will be creating a web app that simulates a client side rendering of a business that prepares healthy meals as per the client's orders. The client has the option of picking up from a delivery point, or having their order dropped off to them. As well the client reserves what time they would like their order prepared by, and has the option to  
+To further my understanding of React.js, APIs, and server-side database interactions, I will be creating a web app that simulates a client side rendering of a business that prepares meals as per the client's orders. The client has the option of picking up from a delivery point, or having their order dropped off to them. As well the client reserves what time they would like their order prepared by, and has the option to  
 The app offers drop-off location options and time reservations. 
 
 I have intended areaa of focus which I will move onto one-by-one as I feel they are sufficiently completed. 
