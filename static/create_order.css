@@ -1,0 +1,45 @@
+  /* Get rid of outline around currently-focused button */
+
+  .block:focus {
+    outline: none;
+  }
+  
+  /* Show the info of the block at the top left */
+  
+  .block i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  /* Show main-block results large in the center */
+  
+  .block b {
+    font-size: 40px;
+  }
+
+/* rounded buttons */
+.block {
+  color: white;
+  border-radius: 10%;
+  position: relative;
+}
+
+/* individual button styling */
+#main-block {
+  color: white;
+  background-color: green;
+  width: 200px;
+  height: 100px;
+  border-radius: 10%;
+  position: relative;
+}
+
+#side-block {
+  color: white;
+  background-color: darkred;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  position: relative;
+}
