@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
 
-class User(db.Model, UserMixin):
+class User(db.Model):
     """Table for a user"""
 
 __tablename__= "users"
