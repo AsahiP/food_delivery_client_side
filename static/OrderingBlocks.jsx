@@ -28,8 +28,8 @@
 // );
 
   
-  function OrderBlock(props) {
-    const [orderTxt, setOrderTxt] = React.useState('?');
+  function MainBlock(props) {
+    const [orderTxt, setOrderTxt] = React.useState('Main Course');
   
     function tAlert() {
     }
@@ -45,20 +45,22 @@
   
   ReactDOM.render(
     <div>
-      <OrderBlock info="Main" />
+      <MainBlock info="Main Course" />
     </div>,
-    document.querySelector('#main-block'),
+    document.querySelector('#main-block-id'),
   );
 
 
-  function SideOrderBlock(props) {
-    const [orderTxt, setOrderTxt] = React.useState('?');
+
+
+  function SideOneBlock(props) {
+    const [orderTxt, setOrderTxt] = React.useState('Side');
   
     function tAlert() {
     }
   
     return (
-      <button type="button" className="block" id="side-block">
+      <button type="button" className="block" id="side-one-block">
         <i>info={props.info}</i>
         <b>{orderTxt}</b>
       </button>
@@ -68,10 +70,33 @@
   
   ReactDOM.render(
     <div>
-      <SideOrderBlock info="Side" />
+      <SideOneBlock info="Side" />
     </div>,
-    document.querySelector('#side-block'),
+    document.querySelector('#side-one-block-id'),
   );
 
+
+
+
+  function SideTwoBlock(props) {
+    const [orderTxt, setOrderTxt] = React.useState('Side');
   
+    function tAlert() {
+    }
+  
+    return (
+      <button type="button" className="block" id="side-two-block">
+        <i>info={props.info}</i>
+        <b>{orderTxt}</b>
+      </button>
+
+    );
+  }
+  
+  ReactDOM.render(
+    <div>
+      <SideTwoBlock info="Side" />
+    </div>,
+    document.querySelector('#side-two-block-id'),
+  );
   
